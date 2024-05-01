@@ -1,0 +1,31 @@
+// 1.Primitive types
+-number
+-string
+-boolean
+-undefined
+-null
+-bigint
+
+// 2.Non-primitive types
+-array
+-tuple
+-object
+-function
+-literals
+-optional
+-type alias
+-never, unknown,any and nullable types
+-union and intersection types
+
+
+
+// 3.Others info
+-nvm
+-rootDir and outDir (of tsconfig.json)
+-spread operator and rest parameter
+-ternary and nullish coalescing operator 
+-optional chaining
+-destructuring array and object (with nested)
+
+
+==========end=========

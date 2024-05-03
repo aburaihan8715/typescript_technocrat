@@ -1,0 +1,4 @@
+
+// type and others info
+-type assertion(kgToGo)
+-type vs interface

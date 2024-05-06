@@ -1,4 +1,20 @@
 
-// type and others info
--type assertion(kgToGo)
--type vs interface
+// Topics
+
+2.1 Type assertion
+2.2 Interface vs type
+2.3 Generic
+2.4 Generic in interface
+2.5 Generic in function
+2.6 Constraints
+2.7 Constraints using key of
+2.8 Asynchronous
+2.9 Conditional type
+2.10 Mapped type
+2.11 Utility types
+  -Pick
+  -Omit
+  -Required
+  -Partial
+  -Readonly
+  -Record

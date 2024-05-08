@@ -3,9 +3,9 @@
 
   // typeof --> type guard
 
-  type Alphaneumeric = string | number;
+  type AlphaNumeric = string | number;
 
-  const add = (param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric => {
+  const add = (param1: AlphaNumeric, param2: AlphaNumeric): AlphaNumeric => {
     if (typeof param1 === "number" && typeof param2 === "number") {
       return param1 + param2;
     } else {
@@ -13,8 +13,12 @@
     }
   };
 
+  // CHECK
   const result1 = add("2", "3");
-  console.log(result1);
+  console.log(result1); // 23
+
+  const result2 = add(2, 3); // 5
+  console.log(result2);
 
   // in guard
   type NormalUser = {
@@ -42,7 +46,11 @@
     role: "admin",
   };
 
-  getUser(adminUser);
+  // CHECK
+  const admin = getUser(adminUser);
+  console.log(admin);
+  const user = getUser(normalUser);
+  console.log(user);
 
   //
 }

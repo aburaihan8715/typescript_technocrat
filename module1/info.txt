@@ -8,7 +8,7 @@
 
 1.5 Object, optional and literals types
 1.6 Function types
-1.7 Spread operator and rest parameter
+1.7 Spread and rest operators
 1.8 Destructuring(array and object with nested )
 1.9 Type alias
 1.10 Union and intersection types
